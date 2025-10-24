@@ -12,7 +12,7 @@ export async function POST(request: NextRequest) {
       receivedData: body,
       headers: headers,
       timestamp: new Date().toISOString(),
-      runtime: 'edge'
+      // runtime: 'edge'
     })
   } catch (error) {
     return NextResponse.json({
@@ -27,6 +27,6 @@ export async function GET() {
   return NextResponse.json({
     message: 'Echo endpoint - send POST request with JSON data',
     timestamp: new Date().toISOString(),
-    runtime: 'edge'
+    // runtime: 'edge'
   })
 }

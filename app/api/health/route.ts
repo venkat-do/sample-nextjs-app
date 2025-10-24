@@ -8,6 +8,6 @@ export async function GET() {
     timestamp: new Date().toISOString(),
     version: '1.0.0',
     framework: 'Next.js',
-    runtime: 'edge'
+    // runtime: 'edge'
   })
 }

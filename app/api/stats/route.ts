@@ -7,7 +7,7 @@ export async function GET() {
     server: 'sample-nextjs-app',
     timestamp: new Date().toISOString(),
     framework: 'Next.js',
-    runtime: 'edge',
+    // runtime: 'edge',
     platform: 'serverless',
     note: 'Edge runtime - limited Node.js APIs available'
   })
