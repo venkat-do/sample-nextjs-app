@@ -2,16 +2,6 @@
 
 A simple Next.js web application for benchmarking and testing purposes.
 
-## Features
-
-- Server-side rendering with Next.js 14
-- API routes for REST endpoints
-- TypeScript support
-- Health check endpoint
-- JSON responses
-- Built-in error handling
-- Production-ready configuration
-
 ## Endpoints
 
 - `GET /` - Welcome page with application info

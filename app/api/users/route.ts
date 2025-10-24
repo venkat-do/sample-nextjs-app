@@ -1,7 +1,5 @@
 import { NextResponse } from 'next/server'
 
-export const runtime = 'edge'
-
 export async function GET() {
   const users = [
     { id: 1, name: 'John Doe', email: 'john@example.com' },
